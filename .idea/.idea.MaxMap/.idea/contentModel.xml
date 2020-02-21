@@ -23,6 +23,7 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="title.png" t="Include" />
       </e>
       <e p="MaxMap.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

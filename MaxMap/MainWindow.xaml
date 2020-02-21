@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MaxMap"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MAX MAP" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="GameSearchBtn" Click="GameSearch">게임찾기</Button>
+        <Button x:Name="DrawGameBtn" Click="DrawGameScreen">화면표시</Button>
+        <Image x:Name="ImgScreen" >
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="200" UriSource="C:\Users\M\Desktop\title.png" />
+            </Image.Source>
+        </Image>
+    </StackPanel>
 </Window>
